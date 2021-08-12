@@ -1,0 +1,8 @@
+create database StudentDb
+use StudentDb
+
+Create table Student(Id int primary key identity(1,1), Name varchar(20), RollNo int, Age int, Course varchar(40), City varchar(30), Country varchar(30))
+
+insert into Student(Name, RollNo, Age, Course, City, Country)values('Arshad', 47, 34, 'BA', 'Mumbai', 'India')
+
+select * from Student
